@@ -1,26 +1,31 @@
 # How to add paging option for Angular Scheduler with multiple resources?
-This example project shows how to add paging option on Angular Scheduler that has multiple resources and grouping enabled. Also, this project is generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+An example application that shows how to add paging option on Angular Scheduler with multiple resources.
 
-## Development server
+![Scheduler with Pager option at bottom](scheduler-with-pager-at-bottom.PNG)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How to run this application?
 
-## Code scaffolding
+To run this application, you need to first clone the `How-to-add-paging-option-for-Angular-Scheduler-with-multiple-resources` repository and then navigate to its appropriate path where it has been located in your system.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To do so, open the command prompt and run the below commands one after the other.
 
-## Build
+```
+git clone https://github.com/SyncfusionExamples/How-to-add-paging-option-for-Angular-Scheduler-with-multiple-resources schedule-with-pager
+cd schedule-with-pager
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installing
 
-## Running unit tests
+Once done with downloading, next you need to install the necessary packages required to run this application locally. The `npm install` command will install all the needed JS2 packages into your current project and to do so, run the below command.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+```
 
-## Running end-to-end tests
+## Running
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Finally, you can now use the below `ng` script to run the web application.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng serve
+```
